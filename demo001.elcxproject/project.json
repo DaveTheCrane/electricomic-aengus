@@ -1,0 +1,525 @@
+{
+  "title": "Wandering Aengus",
+  "version": 1,
+  "summary": "Playground for explorig layouts, non-linear sequences etc. Based on a one-page adaptation of Yeat's \"Wandering Aengus\"",
+  "date": "2015-09-14",
+  "dateString": "14/9/2015",
+  "orientation": "landscape",
+  "creators": [
+    {
+      "name": "",
+      "role": ""
+    }
+  ],
+  "screenW": "768",
+  "screenH": 768,
+  "pxRatio": 1,
+  "pages": [
+    null,
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_6m8fid9vs",
+          "src": "images/tile-0-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 1,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_jgu1rn5nj",
+          "src": "images/tile-1-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 2,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_vvdf9ongq",
+          "src": "images/tile-2-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 3,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_dkspj0207",
+          "src": "images/tile-3-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 4,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_gyagvd1vg",
+          "src": "images/tile-4-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 5,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_do7abqi7a",
+          "src": "images/tile-5-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 6,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_ho5b5f80r",
+          "src": "images/tile-6-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 7,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_1986ya3x1",
+          "src": "images/tile-7-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 8,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_bpjd21fkj",
+          "src": "images/tile-8-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 9,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_dqhitrjhe",
+          "src": "images/tile-9-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 10,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_d41t68ov8",
+          "src": "images/tile-10-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 11,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_4fje3huhu",
+          "src": "images/tile-11-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 12,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_gl2yhqht0",
+          "src": "images/tile-12-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 13,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_lyvsge9qm",
+          "src": "images/tile-13-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 14,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_u84gu2zxg",
+          "src": "images/tile-14-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 15,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_5cw3vwa1g",
+          "src": "images/tile-15-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 16,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_pmxcd2mwf",
+          "src": "images/tile-16-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 17,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_2q3ohyh6k",
+          "src": "images/tile-17-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 18,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_pb8g0mxnt",
+          "src": "images/tile-18-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 19,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_la6srjk7h",
+          "src": "images/tile-19-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 20,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_9iuojx789",
+          "src": "images/tile-20-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 21,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_vn4vbh9o3",
+          "src": "images/tile-21-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 22,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_ksuh59i67",
+          "src": "images/tile-22-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 23,
+          "panelN": 1
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "show": true,
+      "panels": [
+        null,
+        {
+          "id": "_23bpef7d1",
+          "src": "images/tile-23-aengus-semiotic-cropped.jpg",
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": "568",
+          "h": "550",
+          "naturalW": 0,
+          "naturalH": 0,
+          "pageN": 24,
+          "panelN": 1
+        }
+      ]
+    }
+  ],
+  "save": false
+}
