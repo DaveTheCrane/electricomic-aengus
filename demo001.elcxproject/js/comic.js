@@ -29,6 +29,31 @@ through which recipients can access the Corresponding Source.
 for the JavaScript code in this page.
 */
 var CreateDigitalComic = function(options) {
+
+  /*
+  this is an example "class" of event handler, that mimics the hard-coded
+  action of the dgenerated Electricomic, but can be swapped out for other
+  implementations more easily. It's very rough and ready. 
+
+  I've had to define it up here so I can refer to it as a default in the opts
+  object - ideally, I'd create a library of EventMap classes, in a separate
+  file/module, on which comic.js depends. (Don't think the client-side JS is
+  using modules/AMD to declare dependencies, is it?) 
+  */
+  var DefaultSingleTapEventMap = function(division){
+    this.division = division || 3;
+  }
+  DefaultSingleTapEventMap.prototype = {
+    onSingleTap: function(comic,x,y){
+      var w = document.documentElement.clientWidth / 3;
+      if (x < w) {
+        comic.prev();
+      } else {
+        comic.next();
+      }      
+    }
+  };
+
   var defaults = {
     animate: 'animate',
     duration: 1000,
@@ -46,7 +71,8 @@ var CreateDigitalComic = function(options) {
     afterShow: '',
     afterHide: '',
     show: 'show',
-    hide: 'hide'
+    hide: 'hide',
+    eventMap: new DefaultSingleTapEventMap()
   };
   // extend default options with those provided
   var opts = $.extend(defaults, options);
@@ -297,21 +323,26 @@ var CreateDigitalComic = function(options) {
   };
 
   // Hammer
+  /*
+  This is now simplified to delegating actual response to user events to the EventMap object up at top 
+  of the file, which could be default tap-to-progress impl, or something else.
+
+  I don't think the dividing line here is right yet. We could just pass in the event and that/this, 
+  and let the EventMap handle all resolution of single pointer, etc., and even let it decide which
+  event types to subscribe to...
+  */
+  var that = this; //closure-buster
   var mc = new Hammer.Manager(document.body);
   var initHammer = function() {
     mc.add(new Hammer.Tap({ event: 'singletap', threshold: 2, pointers: 1, taps: 1 }));
     mc.on('singletap', function(e) {
       var pointer = e.pointers[0];
       var x = pointer.clientX;
-      var w = document.documentElement.clientWidth / 3;
-      if (x < w) {
-        navToStep('prev');
-      }
-      else {
-        navToStep('next');
-      }
+      var y = pointer.clientY;
+      opts.eventMap.onSingleTap(that,x,y);
     });
   };
+
 
   // Storage
   var initStorage = function() {
